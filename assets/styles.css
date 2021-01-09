@@ -246,3 +246,22 @@ button {
     transition: 300ms ease-in;
     opacity: 0.8
 }
+/* Testimonials */
+#testimonials{
+    background-color: #222831;
+    color:#dddddd;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimonial{
+    display: flex;
+    margin-bottom: 40px;
+}
+.testimonial__speech{
+    text-align: right;
+}
+.name{
+    color:#dddddd;
+}
