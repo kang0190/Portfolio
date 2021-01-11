@@ -248,17 +248,29 @@ button {
 }
 .work__projects{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: all ease-out;
+}
+.work__projects.anim-out{
+    opacity: 0.8;
+    transition: 300ms;
+    transform: scale(0.96) translateY(40px);
+    
 }
 .work__project{
-    width:300px;
-    height: 300px;
+    width:200px;
+    height: 200px;
     margin: 3%;
     opacity: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
 }
+
 .project__description{
     color:#222831;
 
@@ -272,6 +284,13 @@ button {
     transition: 300ms ease-in;
     opacity: 0.8
 }
+
+.project.invisible{
+    display: none;
+    
+}
+
+
 /* Testimonials */
 #testimonials{
     background-color: #222831;
@@ -315,7 +334,7 @@ button {
 .arrow-up{
     position: fixed;
     bottom: 100px;
-    right: 100px;
+    right: 3%;
     font-size: 70px;
     color:#0f3057;
     transition: opacity 300ms ease-in;
