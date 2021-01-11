@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/main.js" defer></script>
 </head>
 
@@ -21,7 +22,7 @@
     <nav id="navbar">
         <div class="navbar__logo">
             <img src="assets/img/favicon-32x32.png" class="navbar__logo__img" alt="">
-            <a href="#">Zion </a>
+            <a href="#" class="navbar--title">Zion </a>
         </div>
         <div class="navbar__menu">
             <ul class="navbar__menu">
@@ -35,7 +36,7 @@
         </div>
         <!-- Toggle Button -->
         <button class="navbar__toggle-btn">
-        <i class="fas fa-bars"></i>
+            <i class="fas fa-bars"></i>
         </button>
     </nav>
     <!-- Home -->
@@ -131,199 +132,198 @@
                 Always worked in fast paced company, able to work unrder the strict time pressure and adapt quickly to
                 new things.
             </p>
-            <div class="skillset">
-                <div class="skillset__left">
-                    <h3 class="skillset__title">Skills</h3>
-                    <div class="skill">
-                        <div class="skill_description">
-                            <span>HTML</span>
-                            <span>99%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value" style="width:99%"></div>
-                        </div>
+        <div class="skill__table">
+            <div class="skillset__left">
+                <h3 class="skillset__title">Skills</h3>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>HTML</span>
+                        <span>99%</span>
                     </div>
-                    <div class="skill">
-                        <div class="skill_description">
-                            <span>CSS</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill__bar">
-                            <div class="skill__value" style="width:90%""></div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width:99%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width:90%""></div>
                     </div>
                 </div>
                 <div class=" skill">
-                                <div class="skill_description">
-                                    <span>JavaScript</span>
-                                    <span>90%</span>
-                                </div>
-                                <div class="skill__bar">
-                                    <div class="skill__value" style="width:90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill_description">
-                                    <span>Python</span>
-                                    <span>80%</span>
-                                </div>
-                                <div class="skill__bar">
-                                    <div class="skill__value" style="width:80%"></div>
-                                </div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill_description">
-                                    <span>React</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill__bar">
-                                    <div class="skill__value" style="width:85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill_description">
-                                    <span>Node.JS</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill__bar">
-                                    <div class="skill__value" style="width:85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill">
-                                <div class="skill_description">
-                                    <span>MongoDB</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="skill__bar">
-                                    <div class="skill__value" style="width:85%"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="skillset_right">
-                            <div class="tools">
-                                <h3 class="skillset__title">Tools</h3>
-                                <ul class="tools_list">
-                                    <li><span>Visual Studio Code</span></li>
-                                    <li><span>Atoms</span></li>
-                                    <li><span>PyCharm</span></li>
-                                    <li><span>Notepad++</span></li>
-                                    <li><span>Terminal</span></li>
-                                </ul>
-                            </div>
-                            <div class="etc">
-                                <h3 class="skillset__title">Etc</h3>
-                                <ul class="etc__list">
-                                    <li><span>Git</span></li>
-                                    <li><span>Musical Instrument</span></li>
-                                    <li><span>Networking</span></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="skill_description">
+                    <span>JavaScript</span>
+                    <span>90%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width:90%"></div>
                     </div>
                 </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Python</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width:80%"></div>
+                        </div>
+                </div>
+                <div class="skill">
+                            <div class="skill_description">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:85%"></div>
+                            </div>
+                </div>
+                <div class="skill">
+                            <div class="skill_description">
+                                <span>Node.JS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:85%"></div>
+                            </div>
+                </div>
+                <div class="skill">
+                            <div class="skill_description">
+                                <span>MongoDB</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width:85%"></div>
+                            </div>
+                </div>
+                    </div>
+                    <div class="skillset_right">
+                        <div class="tools">
+                            <h3 class="skillset__title">Tools</h3>
+                            <ul class="tools_list">
+                                <li><span>Visual Studio Code</span></li>
+                                <li><span>Atoms</span></li>
+                                <li><span>PyCharm</span></li>
+                                <li><span>Notepad++</span></li>
+                                <li><span>Terminal</span></li>
+                            </ul>
+                        </div>
+                        <div class="etc">
+                            <h3 class="skillset__title">Etc</h3>
+                            <ul class="etc__list">
+                                <li><span>Git</span></li>
+                                <li><span>Musical Instrument</span></li>
+                                <li><span>Networking</span></li>
+                            </ul>
+                        </div>
+                    </div>
+        </div>       
+        </div>
     </section>
 
     <!-- Work Exprienece -->
     <section id="work" class="section">
         <div class="section__container">
-        <h1>My Work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-            <button class="category__btn">All <span class="category__count">8</span></button>
-            <button class="category__btn">Front-end<span class="category__count">5</span></button>
-            <button class="category__btn">Back-end<span class="category__count">2</span></button>
-            <button class="category__btn">Moblie<span class="category__count">1</span></button>
+            <h1>My Work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn">All <span class="category__count">8</span></button>
+                <button class="category__btn">Front-end<span class="category__count">5</span></button>
+                <button class="category__btn">Back-end<span class="category__count">2</span></button>
+                <button class="category__btn">Moblie<span class="category__count">1</span></button>
+            </div>
+            <div class="work__projects">
+                <div class="work__project">
+                    <a href="https://github.com/kang0190/Portfolio" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/Personalwebsite.png" alt="Personal Webpage">
+                        <div class="project__description">
+                            <h3>Personal Webpage</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="work__project">
+                    <a href="https://github.com/kang0190/Tindog" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/Tindog.png" alt="Tindog Webpage">
+                        <div class="project__description">
+                            <h3>TinDog Webpage</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="work__project">
+                    <a href="https://repl.it/@kang0190/blackjack-final-1#main.py" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/blackjack.png" alt="Black Jack Game">
+                        <div class="project__description">
+                            <h3>Black Jack Game</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="work__project">
+                    <a href="https://repl.it/@kang0190/Day-7-Hangman-5-End#main.py" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/Hangman.png" alt="Hangman Game">
+                        <div class="project__description">
+                            <h3>Hangman Game</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="work__project">
+                    <a href="https://github.com/kang0190/Portfolio" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/Personalwebsite.png" alt="Personal Webpage">
+                        <div class="project__description">
+                            <h3>Personal Webpage</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="work__project">
+                    <a href="https://github.com/kang0190/Tindog" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/Tindog.png" alt="Tindog Webpage">
+                        <div class="project__description">
+                            <h3>TinDog Webpage</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="work__project">
+                    <a href="https://repl.it/@kang0190/blackjack-final-1#main.py" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/blackjack.png" alt="Black Jack Game">
+                        <div class="project__description">
+                            <h3>Black Jack Game</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="work__project">
+                    <a href="https://repl.it/@kang0190/Day-7-Hangman-5-End#main.py" class="project" target="blank">
+                        <img class="project__img" src="assets/img/portfolio/Hangman.png" alt="Hangman Game">
+                        <div class="project__description">
+                            <h3>Hangman Game</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="work__projects">
-            <div class="work__project">
-                <a href="https://github.com/kang0190/Portfolio" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/Personalwebsite.png" alt="Personal Webpage">
-                    <div class="project__description">
-                        <h3>Personal Webpage</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="work__project">
-                <a href="https://github.com/kang0190/Tindog" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/Tindog.png" alt="Tindog Webpage">
-                    <div class="project__description">
-                        <h3>TinDog Webpage</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="work__project">
-                <a href="https://repl.it/@kang0190/blackjack-final-1#main.py" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/blackjack.png" alt="Black Jack Game">
-                    <div class="project__description">
-                        <h3>Black Jack Game</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="work__project">
-                <a href="https://repl.it/@kang0190/Day-7-Hangman-5-End#main.py" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/Hangman.png" alt="Hangman Game">
-                    <div class="project__description">
-                        <h3>Hangman Game</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="work__project">
-                <a href="https://github.com/kang0190/Portfolio" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/Personalwebsite.png" alt="Personal Webpage">
-                    <div class="project__description">
-                        <h3>Personal Webpage</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="work__project">
-                <a href="https://github.com/kang0190/Tindog" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/Tindog.png" alt="Tindog Webpage">
-                    <div class="project__description">
-                        <h3>TinDog Webpage</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="work__project">
-                <a href="https://repl.it/@kang0190/blackjack-final-1#main.py" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/blackjack.png" alt="Black Jack Game">
-                    <div class="project__description">
-                        <h3>Black Jack Game</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="work__project">
-                <a href="https://repl.it/@kang0190/Day-7-Hangman-5-End#main.py" class="project" target="blank">
-                    <img class="project__img" src="assets/img/portfolio/Hangman.png" alt="Hangman Game">
-                    <div class="project__description">
-                        <h3>Hangman Game</h3>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
 
     </section>
 
     <!-- Testimonials -->
     <section id="testimonials" class="section">
         <div class="section__container">
-        <h1>Testimonials</h1>
-        <h3>See what they say about me</h3>
-        <div class="testimonials">
-            <div class="testimonial">
-                <img src="assets/img/testmonials/Jenn.png" alt="" class="testimonial__people">
-                <div class="testimonial__speech">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                        Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Fringilla ut morbi tincidunt
-                        augue interdum.
-                        Viverra suspendisse potenti nullam ac tortor vitae purus.
-                        Faucibus a pellentesque sit amet. Porta lorem mollis aliquam ut porttitor leo a.
-                        In nisl nisi scelerisque eu ultrices vitae. Arcu cursus vitae congue mauris.
-                    </p>
-                    <p class="name"><a class="name" href="">Jenn Kerfoot</a> / Formal Vice President of CCHS</p>
+            <h1>Testimonials</h1>
+            <h3>See what they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="assets/img/testmonials/Jenn.png" alt="" class="testimonial__people">
+                    <div class="testimonial__speech">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                            Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Fringilla ut morbi tincidunt
+                            augue interdum.
+                            Viverra suspendisse potenti nullam ac tortor vitae purus.
+                            Faucibus a pellentesque sit amet. Porta lorem mollis aliquam ut porttitor leo a.
+                            In nisl nisi scelerisque eu ultrices vitae. Arcu cursus vitae congue mauris.
+                        </p>
+                        <p class="name"><a class="name" href="">Jenn Kerfoot</a> / Formal Vice President of CCHS</p>
+                    </div>
                 </div>
-            </div>
                 <div class="testimonial">
                     <img src="assets/img/testmonials/Edwin.png" alt="" class="testimonial__people">
                     <div class="testimonial__speech">
@@ -335,25 +335,26 @@
                             Faucibus a pellentesque sit amet. Porta lorem mollis aliquam ut porttitor leo a.
                             In nisl nisi scelerisque eu ultrices vitae. Arcu cursus vitae congue mauris.
                         </p>
-                        <p class="name"><a class="name" href="">Edwin Puentes</a> / Supervisor Network Support team at Altamed</p>
+                        <p class="name"><a class="name" href="">Edwin Puentes</a> / Supervisor Network Support team at
+                            Altamed</p>
                     </div>
                 </div>
-            <div class="testimonial testimonial3">
-                <img src="assets/img/testmonials/Min.png" alt="" class="testimonial__people">
-                <div class="testimonial__speech">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                        Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Fringilla ut morbi tincidunt
-                        augue interdum.
-                        Viverra suspendisse potenti nullam ac tortor vitae purus.
-                        Faucibus a pellentesque sit amet. Porta lorem mollis aliquam ut porttitor leo a.
-                        In nisl nisi scelerisque eu ultrices vitae. Arcu cursus vitae congue mauris.
-                    </p>
-                    <p class="name"><a class="name" href="">Min Kim</a> / CyberSecurity Administrator at Walmart</p>
+                <div class="testimonial testimonial3">
+                    <img src="assets/img/testmonials/Min.png" alt="" class="testimonial__people">
+                    <div class="testimonial__speech">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                            Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Fringilla ut morbi tincidunt
+                            augue interdum.
+                            Viverra suspendisse potenti nullam ac tortor vitae purus.
+                            Faucibus a pellentesque sit amet. Porta lorem mollis aliquam ut porttitor leo a.
+                            In nisl nisi scelerisque eu ultrices vitae. Arcu cursus vitae congue mauris.
+                        </p>
+                        <p class="name"><a class="name" href="">Min Kim</a> / CyberSecurity Administrator at Walmart</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- Conatct -->
@@ -366,11 +367,11 @@
             <a href="https://www.linkedin.com/in/zion-kang-5341a111a/" class="contact__social">
                 <i class="fab fa-linkedin"></i>
             </a>
-        </a>
-        <a href="mailto:zion-kang@hotmail.com" class="contact__social">
-            <i class="far fa-envelope"></i>
-        </a>
-    </div>
+            </a>
+            <a href="mailto:zion-kang@hotmail.com" class="contact__social">
+                <i class="far fa-envelope"></i>
+            </a>
+        </div>
         <p class="contact__copyright">2021 Zion Kang - All rights reserved</p>
     </section>
 
