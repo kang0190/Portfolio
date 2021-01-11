@@ -37,3 +37,17 @@ const homeHeight = home.getBoundingClientRect().height;
 document.addEventListener('scroll',()=>{
     home.style.opacity = 1 - window.scrollY / homeHeight;
 })
+
+
+// Arrow will take it to the homepage
+const arrow = document.querySelector('.arrow-up');
+document.addEventListener('scroll',()=>
+{   if(window.scrollY > homeHeight / 2){
+    arrow.classList.add('visible');
+    } else{
+        arrow.classList.remove('visible');
+    }    
+})
+arrow.addEventListener("click", ()=>{
+    scrollIntoView("#home")
+})

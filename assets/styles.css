@@ -312,6 +312,25 @@ button {
     opacity: 0.8;
 }
 
+.arrow-up{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    font-size: 70px;
+    color:#0f3057;
+    transition: opacity 300ms ease-in;
+    opacity: 0;
+    pointer-events: none;
+}
+.uparrow{
+    color:#0f3057;;
+}
+
+.arrow-up.visible {
+    opacity: 1;
+    pointer-events: auto;
+    
+}
 /* For below 768px screen width */
 @media screen and (max-width: 768px){
     .navbar__toggle-btn{
