@@ -56,7 +56,8 @@ ul{
     border-radius: 4px;
 }
 .navbar__menu__item:hover{
-    background-color:#cdd0cb
+    color: #222831;;
+    background-color:#dddddd;
 }
 
 .navbar__toggle-btn{
@@ -98,6 +99,10 @@ button {
     cursor: pointer;
     border:none;
     outline: none;;
+}
+.home__contact:hover{
+    color: #222831;;
+    background-color:#dddddd;
 }
 
 /* Section Common */
@@ -312,6 +317,7 @@ button {
 #contact{
     background-color: #e7e7de;
     color:#008891;
+    margin: 0;
 }
 .contact__social{
     font-size: 50px;
@@ -356,7 +362,9 @@ button {
     flex-direction: column;
     align-items: flex-start;
     background-color:#222831;
+    width: 100%;
 }
+
 .navbar__menu{
     flex-direction: column;
     align-items: center;
@@ -373,20 +381,67 @@ button {
 .navbar__toggle-btn{
     display: block;
 }
+#home{
+    display: flex;
+    justify-content: center;
+}
+.home__avatar{
+    width: 300px;
+    height: 300px;
+}
+.home__title,.home__descrption{
+    font-size: 30px;
+}
+#about{
+    flex-direction: column;
+}
 .about__majors{
     flex-direction: column;
+    margin: 0%;
 }
-.major{
-    margin-bottom: 38px;
+.major__icon{
+    width: 200px;
+    height:200px;
+    font-size: 120px;
 }
+.micon{
+    margin-top: 40px;
+}
+.section{
+    padding: 0;
+    margin: 0;
+}
+.major__description{
+    margin-bottom: 30px;
+}
+
 .about__jobs{
     flex-direction: column;
+}
+.job__first{
+    margin-top:0;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .work__project{
     margin-bottom: 20%;
 }
 .category__btn{
     margin-bottom: 10px;
+}
+.skill__section{
+    padding-top: 10px;
+}
+.skillset_right{
+    margin:0;
+    padding: 0;
+}
+.skillset__title{
+    margin: 0;
+    padding: 0;
+}
+.tools_list{
+    margin-bottom: 0%;
 }
 .skill__table{
     flex-direction: column;
@@ -395,11 +450,22 @@ button {
     flex-direction: column;
     align-items: center;
 }
+.testimonial3{
+    margin-bottom: 0;
+}
 .testimonial__people{
     width: 181px;
     height: 156px;
 }
 .testimonial__speech{
     text-align: center;
+}
+.contact_title{
+    padding-top: 10px;
+    margin-top: 0;
+    
+}
+.contact__copyright{
+    margin-bottom: 0;
 }
 }
