@@ -16,6 +16,7 @@ body{
     background-color: transparent;
     transition: 300ms ease-in-out;
     color:#eeeeee;
+    z-index: 1;
 }
 
 #navbar.navbar--dark {
