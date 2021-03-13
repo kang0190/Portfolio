@@ -155,7 +155,7 @@ button {
     align-items: center;
     flex-wrap: wrap;
 }
-.job__first{
+.job__first, .education__first{
     display: flex;
     justify-content: space-evenly;
 }
@@ -170,8 +170,15 @@ button {
     color:lightslategray;
     font-size: smaller;
 }
-.company__logo{
+.company__logo {
     width:92px;
+}
+.school__logo{
+    margin-right: 10px;
+}
+.certs{
+    width: 92px;
+    margin-right: 10px;
 }
 /* Skill */
 #skills{
@@ -427,7 +434,8 @@ button {
     margin-bottom: 30px;
 }
 
-.about__jobs{
+.about__jobs,
+.about__education{
     flex-direction: column;
 }
 .job__first{
