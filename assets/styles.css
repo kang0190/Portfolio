@@ -433,9 +433,11 @@ button {
 .major__description{
     margin-bottom: 30px;
 }
-
-.about__jobs,
-.about__education{
+.education__first{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about__jobs{
     flex-direction: column;
 }
 .job__first{
